@@ -3,21 +3,21 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const artistsData = [
-        { name: 'Henrique & Juliano', image: './assets/artista-henrique-juliano.jpg' },
-        { name: 'Jorge & Mateus', image: './assets/artista-jorge-mateus.jpg' },
-        { name: 'Zé Neto & Cristiano', image: './assets/artista-ze-neto.jpg' },
-        { name: 'Gusttavo Lima', image: './assets/artista-gustavo-limma.jpg' },
-        { name: 'Luan Santana', image: './assets/artista-luan-santana.jpg' },
-        { name: 'Matheus & Kauan', image: './assets/artista-mateus-kauan.jpg' }
+        { name: 'Henrique & Juliano', image: './artista-henrique-juliano.jpg' },
+        { name: 'Jorge & Mateus', image: './artista-jorge-mateus.jpg' },
+        { name: 'Zé Neto & Cristiano', image: './artista-ze-neto.jpg' },
+        { name: 'Gusttavo Lima', image: './artista-gustavo-limma.jpg' },
+        { name: 'Luan Santana', image: './artista-luan-santana.jpg' },
+        { name: 'Matheus & Kauan', image: './artista-mateus-kauan.jpg' }
     ];
 
     const albumsData = [
-        { name: 'White Noise (Sleep & Relaxation Sounds)', artist: 'Sleepy John', image: './assets/album-white-noise.jpg' },
-        { name: 'O Céu Explica Tudo (Ao Vivo)', artist: 'Henrique & Juliano', image: './assets/album-ceu-explica.jpg' },
-        { name: 'Nada como um dia após o outro', artist: 'Racionais', image: './assets/album-vida-loka.jpg' },
-        { name: 'HIT ME HARD AND SOFT', artist: 'Billie Eilish', image: './assets/album-hit-me.jpg' },
-        { name: 'CAJU', artist: 'Liniker', image: './assets/album-caju.jpg' },
-        { name: 'Escândalo Íntimo', artist: 'Luísa Sonza', image: './assets/album-escandalo.jpg' }
+        { name: 'White Noise (Sleep & Relaxation Sounds)', artist: 'Sleepy John', image: '.s/album-white-noise.jpg' },
+        { name: 'O Céu Explica Tudo (Ao Vivo)', artist: 'Henrique & Juliano', image: './album-ceu-explica.jpg' },
+        { name: 'Nada como um dia após o outro', artist: 'Racionais', image: './album-vida-loka.jpg' },
+        { name: 'HIT ME HARD AND SOFT', artist: 'Billie Eilish', image: './album-hit-me.jpg' },
+        { name: 'CAJU', artist: 'Liniker', image: './album-caju.jpg' },
+        { name: 'Escândalo Íntimo', artist: 'Luísa Sonza', image: './album-escandalo.jpg' }
     ]
 
     const artistGrid = document.querySelector('.artist-grid');
